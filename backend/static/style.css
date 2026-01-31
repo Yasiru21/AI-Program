@@ -1,0 +1,17 @@
+body {
+  background: #0b0c10;
+  color: #66fcf1;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #45a29e;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

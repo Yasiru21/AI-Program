@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Object Detection</title>
+  <link rel="stylesheet" href="http://127.0.0.1:5000/static/style.css" />
+</head>
+<body>
+  <h1>Live Object Detection System</h1>
+  <div class="video-container">
+    <img src="{{ url_for('video') }}" width="720" height="480" />
+  </div>
+  <p>Press Ctrl + C in terminal to stop the server</p>
+  <script src="http://127.0.0.1:5000/static/script.js"></script>
+</body>
+</html>
